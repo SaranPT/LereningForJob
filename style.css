@@ -10,11 +10,43 @@
 }
 
 .row {
-    width: 50%;
-    position: relative;
-    display: inline;
+    max-width: 50%;
 }
 
 .center {
     text-align: center;
+}
+
+footer {
+    padding: 15px 0;
+    background-color: #333;   /* พื้นหลังเข้ม */
+    color: #fff;          
+
+}
+
+.py-10 {
+  padding-top: 2.5rem;   /* 40px */
+  padding-bottom: 2.5rem; /* 40px */
+}
+
+.border-t {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #e5e7eb; /* ค่า default */
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.Rs {
+    position: fixed;
+    right: 0;
 }
