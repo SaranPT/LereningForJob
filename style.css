@@ -1,0 +1,20 @@
+.colorsky {
+    color: rgb(17, 91, 91);
+}
+
+.continor {
+    max-width: 100%;
+    padding: 20px;
+    display: flex;
+    position: relative;
+}
+
+.row {
+    width: 50%;
+    position: relative;
+    display: inline;
+}
+
+.center {
+    text-align: center;
+}
